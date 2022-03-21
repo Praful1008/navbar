@@ -1,6 +1,5 @@
 function replaceClass(element){
     let x=element.innerText;
-    // console.log(element.parentElement)
     switch (x) {
         case 'About':
             document.getElementById('animation').className='start-About';
