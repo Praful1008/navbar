@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <title>Animated Navbar</title>
+</head>
+
+<body>
+    <nav>
+        <a href="#" class="brand">Navbar</a>
+        <input type="checkbox" id="toggle-checkbox">
+        <label for="toggle-checkbox" class="toggle-btn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+        <ul>
+            <li onclick="addBackground(this)"><a href="#" onclick="replaceClass(this)">Home</a></li>
+            <li onclick="addBackground(this)"><a href="#" onclick="replaceClass(this)">About</a></li>
+            <li onclick="addBackground(this)"><a href="#" onclick="replaceClass(this)">Blog</a></li>
+            <li onclick="addBackground(this)"><a href="#" onclick="replaceClass(this)">Contact</a></li>
+            <div id="animation" class="start-home"></div>
+        </ul>
+        <input class="txt" type="text" placeholder="search your text">
+    </nav>
+
+    <script src="navbar.js"></script>
+</body>
+
+</html>
