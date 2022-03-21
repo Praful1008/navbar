@@ -18,14 +18,14 @@ function replaceClass(element){
 }
 document.querySelector('li').style.background='rgb(26, 188, 156,0.32)';
 document.querySelector('li').style.borderRadius='8px';
-document.querySelector('li').firstChild.style.color='wheat';
+document.querySelector('li').firstChild.style.color='rgb(250 198 106)';
 function addBackground(element){
     document.querySelectorAll('li').forEach(e => {
         if(e===element)
         {
             e.style.background='rgb(26, 188, 156,0.32)';
             e.style.borderRadius='8px';
-            e.firstChild.style.color='wheat';
+            e.firstChild.style.color='rgb(250 198 106)';
         }
         else
         {
